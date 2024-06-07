@@ -1,0 +1,52 @@
+Note: Only a basic idea is given for each topic in this file, details will be given later.
+
+INTRODUCTION:
+
+1. React is the library for web and native interfaces.
+2. JavaScript works on an imperative approach where we have to explicitly program each and every step of the flow of the web app.
+3. React (a library of JS), rather works on a declarative approch (just write your end state, and all set).
+4. LIBRARY: collection of pre-written code that you can call upon to help you perform common tasks (like a toolbox, you pick and choose what you need)
+5. FRAMEWORK: A structure within which you build your application. It provides a foundation and prescribes a way of doing things (Angular and Vue are frameworks of JS)
+6. React provides the tools and components to create UI elements, but it doesn't dictate the structure of your entire application or how you should organize your code.
+7. It helps in creating single page application (need not link multiple HTML files together, instead dynamically modify the single HTML file)
+8. React works by creating components (a fancy name given to simple functions!)
+
+
+SETTING UP REACT:
+
+(1) Install NodeJS
+(2) Install VS code
+(3) Create a new Folder: ReactFolio
+(4) Change directory to ReactFolio
+(5) npx create-react-app <reactAppNameHere>
+(6) cd <reactAppNameHere>
+(7) npm start
+
+
+REACT COMPONENTS:
+
+1. React allows us to break a UI down into independent reusable chunks called as components.
+2. They must be captilaized (first letter must be uppercase, else they will not work properly).
+3. Import the custom component into the App.js file, that component return a JSX data (can link its CSS file as well). This data is highly user friendly and can't be understood by the browser, therefore it is then converted to a low version language.  
+
+For example,
+
+function Greeting() {
+  return <h1>&quot;Hello Guys.&quot;</h1>;
+}
+
+WHAT IS JSX (JavaScript XML)?
+
+1. a syntax extension for JavaScript that lets you write HTML-like markup inside a JavaScript file'
+2. JSX is syntactic sugar for the React createElement function
+3. Most of the time in apps, rendering logic and markup are inherently coupled, but we typically separate them by having our logic and markup in separate files
+4. JSX allows React to separate concerns by containing both rendering logic and content in the same place (a component)
+
+KEYS IN REACT:
+
+Keys are used in React to identify which items in the list are changed, updated, or deleted
+(similar to keys in objects in JS)
+
+
+
+
