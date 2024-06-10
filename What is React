@@ -47,6 +47,14 @@ KEYS IN REACT:
 Keys are used in React to identify which items in the list are changed, updated, or deleted
 (similar to keys in objects in JS)
 
+STATE IN REACT:
 
+(1) State refers to an object that holds some information that may change over the lifetime of the component.
+(2) Characteristics: Local to the component, Triggers Re-renders, Initialized with a default value.
+(3) 'useState' hook is used to manage the state
 
+HOOKS IN REACT:
+
+(1) Hooks are special functions in React that allow you to "hook into" React features and lifecycle functions in functional components.
+(2) Before the introduction of hooks, class components were required to use state and lifecycle methods.
 
